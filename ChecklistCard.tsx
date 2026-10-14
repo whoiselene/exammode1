@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Check, Plus, Trash2 } from 'lucide-react';
 import { ChecklistItem } from '../types';
 
+
+
 interface ChecklistCardProps {
   items: ChecklistItem[];
   onToggleItem: (id: string) => void;
