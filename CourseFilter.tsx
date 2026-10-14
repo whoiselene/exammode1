@@ -1,5 +1,6 @@
 import React from 'react';
 import { Check } from 'lucide-react';
+
 import { Course } from '../types';
 
 interface CourseFilterProps {
