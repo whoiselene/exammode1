@@ -6,6 +6,7 @@ interface ChecklistCardProps {
   items: ChecklistItem[];
   onToggleItem: (id: string) => void;
   onAddItem: (text: string, courseCode?: string) => void;
+  
   onDeleteItem: (id: string) => void;
 }
 
