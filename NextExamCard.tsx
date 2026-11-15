@@ -3,6 +3,7 @@ import { Calendar, Clock, Play, RefreshCw, AlertCircle } from 'lucide-react';
 import { Exam } from '../types';
 
 interface NextExamCardProps {
+  
   exam: Exam;
   onStartFocus: () => void;
   onReschedule: () => void;
